@@ -48,11 +48,12 @@ project "GLFW"
 			"_GLFW_WIN32",
 			"_CRT_SECURE_NO_WARNINGS"
 		}
-
-		--links
-		--{
-		--	"Dwmapi.lib"
-		--}
+		
+		--??
+		links
+		{
+			"Dwmapi.lib"
+		}
 
 	filter "configurations:Debug"
 		runtime "Debug"
