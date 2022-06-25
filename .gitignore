@@ -3,8 +3,8 @@ build
 
 # Directiories
 .vs/
-bin/
-bin-int/
+bin/*
+bin-int/*
 
 # Files
 *.user
@@ -108,4 +108,3 @@ tests/title
 tests/triangle-vulkan
 tests/window
 tests/windows
-
